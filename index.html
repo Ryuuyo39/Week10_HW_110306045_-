@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Homework</title>
+	<style type="text/css">
+		span {
+			font-family: monospace;
+			color: #006786;
+			background-color: #B3EDFF;
+		}
+		.extra span {
+			color: inherit;
+			background-color: inherit;
+		}
+		h2 {
+			font-family: monospace;
+			color: #006786;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<table border="1" style="border:8px #B3EDFF groove;" cellpadding="10">
+			<thead>
+				<tr>
+					<th colspan="3" bgcolor="#B3EDFF"><h2>About -- 110306045</h2></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td rowspan="3" align="center" bgcolor="#EAFAFF">
+						<p><img src="kids_chuunibyou_girl.png" width="64.3" height="80" alt="chuunibyou girl"></p>
+						<p><span>personal photo<span></p>
+					</td>
+					<td colspan="2"><label>
+						<div class="extra"><span>Name: </span>
+							<input type="text" name="name"></label>
+						<label><br><div class="extra"><span>Gender: 
+						<input type="radio" name="gender" value="Male">Male
+						<input type="radio" name="gender" value="Female">Female
+						<input type="radio" name="gender" value="Other">Other
+					</span></label></td>
+				<tr>
+					<td><label><div class="extra"><span>County: 
+						<select name="county">
+							<option value="Taipei">Taipei</option>
+							<option value="Taoyuan">Taoyuan</option>
+							<option value="Taichung">Taichung</option>
+							<option value="Tainan">Tainan</option>
+						</select></span></label></td>
+					<td><label><div class="extra"><span>Birthday: <input type="date" name="date"></span></label></td>
+				</tr>
+				<tr>
+					<td colspan="2"><label><div class="extra"><span>E-mail: <input type="email" name="email"></span></label></td>
+				</tr>
+				<tr>
+					<td bgcolor="#EAFAFF">
+						<div class="extra" style="color: #00506C;">
+							<span>Hobby</span>
+					</td>
+					<td colspan="2"><div class="extra"><span>
+						<input type="checkbox" name="hobby" value="Swimming">Swimming
+						<input type="checkbox" name="hobby" value="Volleyball">Volleyball
+						<input type="checkbox" name="hobby" value="Movie">Movie
+						<input type="checkbox" name="hobby" value="Game">Game
+						<input type="checkbox" name="hobby" value="Sleep">Sleep
+					</span></td>
+				</tr>
+				<tr>
+					<td bgcolor="#EAFAFF">
+						<div class="extra" style="color: #00506C;">
+							<span>Skill</span>
+					</td>
+					<td colspan="2"><div class="extra"><span>
+						<input type="checkbox" name="skill" value="Java">Java
+						<input type="checkbox" name="skill" value="HTML">HTML
+						<input type="checkbox" name="skill" value="Python">Python
+						<input type="checkbox" name="skill" value="Microsoft Office">Microsoft Office
+						<input type="checkbox" name="skill" value="Premiere">Premiere
+					</span></td>
+				</tr>
+				<tr>
+					<td bgcolor="#EAFAFF">
+					<div class="extra" style="color: #00506C;">
+						<span>Say Something</span>
+				</td>
+					<td colspan="2"><textarea rows="5" cols="50" placeholder="Say something here."></textarea></td>
+				</tr>
+				<tr>
+					<td colspan="3"><input type="submit" value="提交"><input type="reset" value="重設"></td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>
